@@ -1,3 +1,20 @@
+J'ai dû installer avec yarn node_modules car dossiers public et src n'apparaissent pas
+Sur VSCODE installer les extensions
+simple React snippets
+Reactjs code snippets
+Mithril Emmet
++ dans le settings.json rahjouter:
+
+"emmet.includeLanguages": {"javascript":"javascriptreact"},
+"emmet.triggerExpansionsonOnTab":true
+Pour y aller
+Roue dentée / paramètre / settings.json  aller sur modifief settings.json
+
+attention au virgule
+J'ai installé sass et axios avec npm
+J'ai installé sur Mozilla "react dev tools pluggin"
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
