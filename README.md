@@ -14,6 +14,12 @@ attention au virgule
 J'ai installé sass et axios avec npm
 J'ai installé sur Mozilla "react dev tools pluggin"
 
+Dans Src, créer deux dossiers pages et components
+dans dossier pages créer un fichier Home.js
+rsc 
+On va réaliser la navigation
+UserList.js
+
 
 # Getting Started with Create React App
 
