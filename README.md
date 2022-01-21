@@ -15,10 +15,14 @@ J'ai installé sass et axios avec npm
 J'ai installé sur Mozilla "react dev tools pluggin"
 
 Dans Src, créer deux dossiers pages et components
-dans dossier pages créer un fichier Home.js
+dans dossier pages créer deux fichiers Home.js et UserList.js
 rsc 
-On va réaliser la navigation
-UserList.js
+On va réaliser la navigation dans App.js
+On réalise le Navlink (ancrage)
+=> dans components création du Header
+
+
+
 
 
 # Getting Started with Create React App
