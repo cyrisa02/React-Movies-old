@@ -20,6 +20,19 @@ rsc
 On va réaliser la navigation dans App.js
 On réalise le Navlink (ancrage)
 => dans components création du Header
+Création d'un form de recherche
+API utilisé TMDB- paramètres / API /
+https://api.themoviedb.org/3/movie/550?api_key=82aca073d5a89313cc80f308fb5ec855
+useEffect: qd le composant est monté on peut faire fonctionner ce qui est à l'intérieur de useEffect une seule fois car 
+,[]  tu ne le fais pas refonctionner pouisque les crochets sont vides [ ] est un callback 53'
+il faut bien paramétrer le consol.log dans le use effect =  rechercher ce qu'on récupère en json
+donc on a Object / data / results Array de 20 voir photo dans dossier img
+d'où dans le hook Useeffect res donne res.data.results, on est à l'entrée du tableau
+le tableau va être mapé
+
+une fois que c'est fait avec le consol log, on va récupérer ce tableau dans une variable moviesData State en utilisant des hook useState
+on remplace le consol log par le setMoviesData est le tour est jouer!
+
 
 
 
