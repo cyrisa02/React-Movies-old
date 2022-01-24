@@ -3,7 +3,7 @@ Sur VSCODE installer les extensions
 simple React snippets
 Reactjs code snippets
 Mithril Emmet
-+ dans le settings.json rahjouter:
++ dans le settings.json rajouter:
 
 "emmet.includeLanguages": {"javascript":"javascriptreact"},
 "emmet.triggerExpansionsonOnTab":true
@@ -31,11 +31,13 @@ d'où dans le hook Useeffect res donne res.data.results, on est à l'entrée du 
 le tableau va être mapé
 
 une fois que c'est fait avec le consol log, on va récupérer ce tableau dans une variable moviesData State en utilisant des hook useState
-on remplace le consol log par le setMoviesData est le tour est jouer!
+on remplace le consol log par le setMoviesData est le tour est jouer! 57'
+clé from scratch:
+ed82f4c18f2964e75117c2dc65e2161d
 
+ma clé: 82aca073d5a89313cc80f308fb5ec855
 
-
-
+création de props sur card(enfant) et form (parent)
 
 
 # Getting Started with Create React App
