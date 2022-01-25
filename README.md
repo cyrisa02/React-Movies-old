@@ -1,3 +1,7 @@
+Pour lancer l'appli
+npm i
+npm start
+
 J'ai dû installer avec yarn node_modules car dossiers public et src n'apparaissent pas
 Sur VSCODE installer les extensions
 simple React snippets
@@ -38,6 +42,16 @@ ed82f4c18f2964e75117c2dc65e2161d
 ma clé: 82aca073d5a89313cc80f308fb5ec855
 
 création de props sur card(enfant) et form (parent)
+
+1h16 fonction qui remet la date à l'endroit dateFormater
+
+1h21 Gestion des genres de film sous forme de id
+créer une fonction genreFinder dans Card.js avec un switch , un tableau avec tous les genres et
+ensuite on map (il faut un key) le tableau 1h28
+
+
+
+
 
 
 # Getting Started with Create React App
