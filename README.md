@@ -48,6 +48,14 @@ création de props sur card(enfant) et form (parent)
 1h21 Gestion des genres de film sous forme de id
 créer une fonction genreFinder dans Card.js avec un switch , un tableau avec tous les genres et
 ensuite on map (il faut un key) le tableau 1h28
+on teste si le synopsis existe 
+ensuite on fait la recherche
+puis le tri avec .slice et .sort a est plus petit que b dans le Form.js
+1h49 bd coup de coeur stocké dan le local storage const addStorage dans Card.js
+on vérifie que storedData existe oui ok on split, sinon tableau vide
+puis on push dans le tableau, faire attention aux doublons, avt le push il faut checker if 
+attention stroedData est un string pas un number toString
+
 
 
 
