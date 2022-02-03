@@ -82,6 +82,15 @@ const Card = ({ movie }) => {
       window.localStorage.movies = storedData;
       }       
     }; 
+
+    const deleteStorage = () => {
+      let storedData = window.localStorage.movies.split(",");
+
+      let newData = storedData.filter((id) => id!== movie.id);
+
+      window.localStorage.movies=newData;
+      
+    };
   
   return (
     <div className="card">
@@ -91,18 +100,34 @@ const Card = ({ movie }) => {
             ? "https://image.tmdb.org/t/p/w500" + movie.poster_path
             : "./img/poster.jpg"
         }
-        alt="image du film"
+        alt="poster du film"
       />
       <h2>{movie.title}</h2>
       {movie.release_date ? (
       <h5>Sorti le : {dateFormater(movie.release_date)}</h5>
        ) : ("")}
        <h4>{movie.vote_average}/10 <span>⭐</span></h4>
-       <ul>{genreFinder()}</ul>      
+       <ul>
+         {movie.genre_ids
+          ? genreFinder() 
+          : movie.genres.map((genre, index) => (
+          <li key={index}>{genre.name}</li>
+          ))}
+          </ul>      
        {movie.overview ? <h4>Synopsis</h4> : ""}
        <p>{movie.overview}</p>
-       <div className="btn" onClick={() => addStorage()}>
+
+       {movie.genre_ids ? (
+         <div className="btn" onClick={() => addStorage()}>
          Ajouter aux coups de coeur</div>
+         ): (
+           <div className="btn"
+            onClick={()=> {
+             deleteStorage();
+             window.location.reload();
+            }}> Supprimer de la liste</div>
+         )}
+       
        
     </div>
   );

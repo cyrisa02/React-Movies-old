@@ -55,6 +55,12 @@ puis le tri avec .slice et .sort a est plus petit que b dans le Form.js
 on vérifie que storedData existe oui ok on split, sinon tableau vide
 puis on push dans le tableau, faire attention aux doublons, avt le push il faut checker if 
 attention stroedData est un string pas un number toString
+Dans Userlist création du coup de coeur, attention le link est différent car 
+on recherche ave un id String
+getemoji.com pour rajouter des émoji 2h08
+
+
+
 
 
 
